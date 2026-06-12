@@ -1,0 +1,52 @@
+# Web framework
+fastapi==0.136.*
+uvicorn[standard]==0.37.*
+python-multipart==0.0.*
+pydantic==2.*
+pydantic-settings==2.*
+
+# Database
+sqlalchemy==2.0.*
+aiosqlite==0.21.*
+
+# Vector DB (embedded)
+pymilvus[milvus_lite]==3.0.*
+milvus-lite==3.0.*
+
+# Document parsing
+unstructured[pdf]==0.22.*
+pdfplumber==0.11.*
+python-docx==1.1.*
+openpyxl==3.1.*
+python-pptx==1.0.*
+markdown==3.7.*
+
+# Embedding + Reranker
+sentence-transformers==5.5.*
+FlagEmbedding==1.4.*
+rank-bm25==0.2.*
+
+# LangChain
+langchain==1.3.*
+langchain-community==0.4.*
+
+# LLM SDKs
+openai==1.*
+anthropic==0.60.*
+zhipuai==2.*
+
+# Auth
+python-jose[cryptography]==3.4.*
+passlib[bcrypt]==1.7.*
+bcrypt==5.0.*
+
+# OCR
+pytesseract==0.3.*
+
+# Observability
+loguru==0.7.*
+
+# Utilities
+jinja2==3.1.*
+jieba==0.42.*
+httpx==0.28.*
