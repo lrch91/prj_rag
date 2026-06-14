@@ -33,14 +33,14 @@ class Settings(BaseSettings):
     upload_dir: str = "./data/files"
 
     # 智谱
-    zhipuai_api_key: str = "58e312795b5d401e8d7f95b842d91d4c.Su0vrFJgpZZB4FWb"
+    zhipuai_api_key: str = ""
 
     # OpenAI
     openai_api_key: str = ""
     openai_base_url: str = ""
 
     # DeepSeek（OpenAI 兼容）
-    deepseek_api_key: str = "sk-73fab4ab22b44cb4899dfadc2230e99b"
+    deepseek_api_key: str = ""
     deepseek_base_url: str = "https://api.deepseek.com"
 
     # Anthropic
